@@ -1,0 +1,17 @@
+.table {
+  margin-top: 20px;
+  overflow: scroll;
+  max-height: 400px;
+  max-width: 400px;
+  color: green;
+}
+.table tr {
+  display: flex;
+  justify-content: space-between;
+  border-top: solid;
+  border-left: solid;
+  border-right: solid;
+}
+.table td {
+  padding: 0.4rem;
+}
